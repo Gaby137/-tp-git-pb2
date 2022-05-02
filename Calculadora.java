@@ -18,10 +18,10 @@ public class Ahorcado {
 		a = teclado.next();
 		switch (opcion) {
 		case opcion.equals(1):
-			resultado = a * b;
+			resultado = multiplicar(a, b);
 			break;
 		case opcion.equals(2):
-			resultado = a - b;
+			resultado = restar(a, b);
 
 			System.out.println("es la resta");
 
@@ -29,15 +29,37 @@ public class Ahorcado {
 
 			break;
 		case opcion.equals(3):
-			resultado = a + b; 
+			resultado = sumar(a, b); 
 			break;
 		default:
-			resultado = a / b;
+			resultado = dividir(a, b);
 			break;
 		}
 		
 		System.out.println("El resultado es " + resultado.toString());
 	}
+	
+	public static Integer sumar(Integer a, Integer b) {
+		Integer resultado;
+		resultado = a + b;
+		return resultado;
+	}
+	public static Integer restar(Integer a, Integer b) {
+		Integer resultado;
+		resultado = a - b;
+		return resultado;
+	}
+	public static Integer multiplicar(Integer a, Integer b) {
+		Integer resultado;
+		resultado = a * b;
+		return resultado;
+	}
+	public static Integer dividir(Integer a, Integer b) {
+		Integer resultado;
+		resultado = a / b;
+		return resultado;
+	}
+	
 }
 			  
 			  
