@@ -23,9 +23,7 @@ public class Ahorcado {
 		case opcion.equals(2):
 			resultado = a - b;
 			break;
-			
 		case opcion.equals(3):
-			
 			resultado = a + b; 
 			break;
 		default:
