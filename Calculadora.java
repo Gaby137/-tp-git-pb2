@@ -22,7 +22,11 @@ public class Ahorcado {
 			break;
 		case opcion.equals(2):
 			resultado = a - b;
-			System.out.println("El mssss es gabriel");
+
+			System.out.println("es la resta");
+
+			System.out.println("El cambio real merge ");
+
 			break;
 		case opcion.equals(3):
 			resultado = a + b; 
